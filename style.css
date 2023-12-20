@@ -213,3 +213,18 @@ img {
     line-height: 1;
     color: #34495e;
 }
+
+@media screen and (max-width: 768px) {
+    #envelope, #env-bottom, #env-left, #env-right , #env-top {
+        width: 75vw;
+        height: 40vh;
+    }
+
+    #card {
+        width: 50%;
+        height: 30%;
+        font-size: 16px;
+        padding: 15px;
+    }
+
+}
