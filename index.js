@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
           clearTimeout(tmr);
           clearInterval(inv);
         }
-      }, 1);
+      }, 100);
     }, 3000);
   });
 });
